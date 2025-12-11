@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Merriweather:wght@400;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 15px;
+    background-color: #A89F91;
+    line-height: 1.6; 
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    background-color: #8C7F72;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+h1:hover {
+    background-color: #7B6A5D;
+    color: #FFFFFF;
+    transform: translateY(-5px);
+}
+h2 {
+    font-family: 'Merriweather', serif;
+    transition: color 0.3s ease;
+}
+h2:hover {
+    color: #FFFFFF;
+    transform: translateX(3px);
+}
+.all {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;  
+    gap: 20px;
+    transition: all 0.2s ease;
+ 
+}
+.one img {
+    width: 40%;
+    max-width: 350px;
+    height: 70%;
+    border-radius: 50%;
+    margin-left: 20px; 
+    border: 5px solid #7B6A5D;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.one img:hover {
+    transform: scale(1.10);
+}
+.two {
+    margin-left: 12px;
+    background-color: #7B6A5D;
+    border-radius: 15px;
+    padding: 20px;
+    width: 60%;
+    max-width:600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+.two:hover {
+    color: #4b4137;
+    transform: translateY(-6px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.three {
+    display: flex;
+    justify-content: space-around;
+    margin: 12px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.four {
+    background-color: #5C4A3E;
+    border-radius: 10px;
+    padding: 50px;
+    width: 30%;
+    max-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+  
+}
+.five {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    background-color: #8C7F72;
+    padding: 15px;
+     text-align: center;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
