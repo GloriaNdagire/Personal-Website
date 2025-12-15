@@ -90,3 +90,35 @@ h2:hover {
     border-radius: 10px;
     transition: all 0.2s ease;
 }
+.six {
+    text-decoration: none;
+    color: inherit;
+
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #7B6A5D;
+    border-radius: 10px;
+}
+.socials {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding: 10px;
+}
+.social {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: trasnparent;
+    color: inherit;
+    transition: transform 200ms ease;
+}
+.social:hover {
+    transform: translateY(5px);
+}
+
+
+
+
